@@ -1,0 +1,38 @@
+body{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+background-color: #04202e;    
+}
+
+
+
+
+
+
+.link{
+    padding-top: 40px;
+    margin: 20px;
+    width: fit-content;
+    position: relative;
+    text-decoration: 0;
+    background-color:#37a6ff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+span{
+    position: absolute;
+    top: -9px;
+    right: -9px;
+
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
